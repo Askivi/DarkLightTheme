@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	transition: background-color 0.3s, color 0.3s;
+}
+.contentainer{
+	text-align: center;
+	margin-top: 20%;
+}
+button{
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	border-radius: 8px;
+}
+body.light{
+	background-color: white;
+	color: #184418;
+}
+button.light{
+	background-color: #8fc28e;
+	color: #184418;
+}
+body.dark{
+	background-color: #184418;
+	color: #8fc28e;
+}
+button.dark{
+	background-color: #8fc28e;
+	color: #184418;
+}
